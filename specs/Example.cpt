@@ -1,0 +1,24 @@
+Created by batuhanzafer on 18.04.2021
+
+This is a concept file with following syntax for each concept.
+#Ürün arama alanına <keyword> bilgisini gir ve ara
+* 1 saniye  bekle
+* Arama alanına <keyword> bilgisini yaz
+* Arama büyüteç simgesine tıkla
+
+
+# Cep telefonları sekmesine tıkla
+* 1 saniye  bekle
+*"div[class='inner']>ul>li:nth-of-type(1)>ul:nth-of-type(1)>li>a" css li elemente tıkla
+
+# Açılan sayfadan ilk ürünü seç
+* 1 saniye  bekle
+*"div[class='product-list']>div:nth-of-type(1)>a" css li elemente tıkla
+* 1 saniye  bekle
+
+# Açılan sayfadan Armağan'ın seçtiği ürün sepete eklenir
+* Ürün arama alanına "bilgisayar" bilgisini gir ve ara
+* Kaydir
+* "div[class='product-list']>div.product-item:nth-of-type(3)>a" css li elemente tıkla
+* Kaydir
+* "//div[@class='add-to-cart']/a" xpathli elemente tikla
